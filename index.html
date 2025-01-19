@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Senior Android Developer</title>
+    <title>Subrata Bal - Technical Lead [Android]</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
             background-color: #333;
             color: white;
-            padding: 10px 0;
+            padding: 20px;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0;
         }
         nav {
             display: flex;
@@ -32,63 +39,224 @@
             padding: 20px;
             background-color: white;
             margin: 20px;
+            border-radius: 8px;
         }
-        h1, h2 {
-            color: #333;
+        h2 {
+            color: #444;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 1px;
             position: fixed;
             width: 100%;
             bottom: 0;
+        }
+		 .content {
+            margin-bottom: 50px; /* Ensure content doesn't overlap with footer */
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info a {
+            color: #cdd5d5;
+            text-decoration: none;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .skills, .projects, .education, .awards {
+            list-style-type: circle;
+            padding-left: 5;
+        }
+        .skills li, .projects li, .education li, .awards li {
+            margin-bottom: 10px;
+        }
+        .experience-section, .skills-section, .education-section, .awards-section {
+            margin-bottom: 40px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Senior Android Developer | Android Automotive | HMI Expert</p>
+    <h1>Subrata Bal</h1>
+    <p>Technical Lead [Android]</p>
+    <div class="contact-info">
+        <p>+91-8210600095</p>
+        <p><a href="mailto:subratabal.dev@gmail.com">subratabal.dev@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/subratabal5" target="_blank">LinkedIn Profile</a></p>
+    </div>
 </header>
 
+ <div class="content">
+
 <nav>
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="#summary">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#awards">Awards</a>
 </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Senior Android Developer with over 8 years of experience in mobile app development. My expertise includes
-        Android Automotive, Human-Machine Interface (HMI), Jetpack Compose, MVVM design pattern, ExoPlayer integration, 
-        and AOSP builds. I have worked on projects involving mobile, TV, and automotive platforms, ensuring performance,
-        security, and usability.
-    </p>
+<section id="summary">
+    <h2>Summary</h2>
+    <p>Senior Android Developer with over 8 years of experience in designing, developing, and maintaining high-performance Android applications for mobile, TV, and Automotive platforms. Proficient in Kotlin, Java, and Android Jetpack components, with expertise in modern architectures like MVVM, MVP, and Clean Architecture. Skilled in integrating third-party SDKs, RESTful APIs, and advanced features such as ExoPlayer, Navigation, and Jetpack Compose. Adept at customizing applications for AOSP builds and diverse domains like Android Automotive, Healthcare, Personal Security, and Embedded Devices. Strong background in leading projects, architectural design, Agile methodologies, testing, delivering robust and scalable solutions through cross-functional collaboration.</p>
 </section>
 
-<section id="projects">
-    <h2>Notable Projects</h2>
-    <ul>
-        <li>Voot Kids - Enhanced UI/UX, bug fixes, and performance optimization</li>
-        <li>QP Learning - Integrated secure login and offline data access</li>
-        <li>Sony Bravia TV App - Optimized for smooth playback and video caching</li>
-        <li>Android Automotive App - HMI design and ExoPlayer integration</li>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <ul class="skills">
+        <li><strong>Programming:</strong> Kotlin, Java, XML, SQL, React Native, iOS Swift (Basic)</li>
+        <li><strong>Frameworks & Libraries:</strong> Android Jetpack (LiveData, ViewModel, Room, Navigation, Compose), Retrofit, Dagger/Hilt, Firebase, ML Kit, Glide, Gson, OkHttp, Volley, ExoPlayer</li>
+        <li><strong>Architectures:</strong> MVVM, MVP, Clean Architecture</li>
+        <li><strong>Testing:</strong> JUnit, Mockito, Espresso, Firebase Crashlytics</li>
+        <li><strong>Tools & IDEs:</strong> Android Studio, IntelliJ IDEA, Gradle, Git, Jira, Bitbucket, GitHub, Gerrit, Postman, Xcode</li>
+        <li><strong>APIs & SDKs:</strong> RESTful APIs, Google Play Services, Payment Gateway APIs, SMS Services, Location-based APIs, JNI/NDK, Automotive Car Libraries</li>
+        <li><strong>Other:</strong> Android Automotive (HMI Design, ED & IVI Integration, AOSP Build Customization), SQLite, AIDL, Encryption, Android Security (SE Policy), CI/CD Pipeline, Agile, Scrum</li>
     </ul>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out via email or LinkedIn.</p>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">your LinkedIn Profile</a></p>
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-section">
+        <h3>September 2024 - Present | Wipro [Client: Harman]</h3>
+        <p><strong>Technical Lead</strong></p>
+        <p><strong>AVInfra HMI Infotainment:</strong></p>
+        <ul class="projects">
+            <li>Designed and implemented HMI architecture for an Embedded Device (ED) app.</li>
+            <li>Led the development of the HMI ED app, ensuring seamless integration with IVI systems.</li>
+            <li>Integrated ExoPlayer and ported the app to AOSP builds.</li>
+            <li>Enabled audio routing from IVI to EDs with JNI interaction for data transfer and system callbacks.</li>
+        </ul>
+    </div>
+    <div class="experience-section">
+        <h3>February 2022 – August 2024 | Wipro [Client: Sony India]</h3>
+        <p><strong>Senior Software Engineer</strong></p>
+        <p><strong>Audience SDK Application for Bravia TV:</strong></p>
+        <ul class="projects">
+            <li>Led design and implementation of new Android features for Bravia TVs.</li>
+            <li>Optimized performance and memory utilization for smoother user experiences.</li>
+            <li>Used Camera2 APIs and AIDL for IPC mechanisms and inter-process communication.</li>
+        </ul>
+        <p><strong>Screening Room App:</strong></p>
+        <ul class="projects">
+            <li>Developed a TV app for Bravia to replicate an OTT-like experience using ExoPlayer 3 and VLC Player plugin.</li>
+            <li>Optimized codebase with Android Jetpack components, improved playback and network issue handling.</li>
+        </ul>
+    </div>
+    <!-- Add more experience as needed -->
+	
+	<div class="experience-section">
+			<h3>August 2018 – February 2022 | AppZoy Technologies Pvt. Ltd.</h3>
+			<p><strong>Mobile Application Developer</strong></p>
+			<p><strong>Voot Kids (Mobile & TV) — Viacom 18 India</strong></p>
+			 <ul class="projects">
+				<li>Supported Reader section functionality for mobile and TV platforms.</li>
+				<li>Redefined backend architecture, optimizing performance; improved Google Play Store rating from 2 to 4.3.</li>
+				<li>Enhanced UX with gesture controls, dictionary features, and read-along functionalities.</li>
+				<li>Conducted unit, integration, and UI testing, improving stability and user experience.</li>
+			</ul>
+
+	
+	
+		
+			 <p><strong>QP Learning App — Hong Kong Institute of Certified Public Accountants</strong></p>
+			 <ul class="projects">
+				<li>Integrated partial login for secure user sessions.</li>
+				<li>Upgraded UI with Jetpack Compose, increasing user satisfaction by 40%.</li>
+				<li>Enabled offline data editing (notes, highlights, bookmarks).</li>
+				<li>Reduced bugs by 35% through extensive testing and debugging.</li>
+			</ul>
+
+	
+			 <p><strong>WK on Alexa Platform — Wolters Kluwer, Netherlands</strong></p>
+			 <ul class="projects">
+				<li>Developed Alexa skills with dynamic quizzing features.</li>
+				<li>Enhanced backend with AWS Lambda and voice processing with AWS Transcribe.</li>
+				<li>Boosted skill usage by 15% with performance optimizations.</li>
+			</ul>
+			
+	
+			 <p><strong>Interspeech 2018</strong></p>
+			 <ul class="projects">
+				<li>Built an app from scratch, focusing on JSON data handling and responsive UI.</li>
+				<li>Integrated ExoPlayer for seamless media playback.</li>
+				<li>Improved app performance by 50% with dynamic pagination.</li>
+			</ul>
+			
+			
+			
+			
+			 <p><strong>FleetOR</strong></p>
+			 <ul class="projects">
+				<li>Implemented geofencing and real-time location tracking.</li>
+				<li>Enhanced performance with efficient data handling and optimized location services.</li>
+			</ul>
+			
+			
+			 <p><strong>LiveUp</strong></p>
+			 <ul class="projects">
+				<li>Improved app performance and stability with significant updates.</li>
+				<li>Reduced memory leaks and optimized background processes for better efficiency. </li>
+			</ul>
+			
+			
+		
+			 <p><strong>UAssess</strong></p>
+			 <ul class="projects">
+				<li>Redesigned score models and enhanced PDF generation techniques.</li>
+				<li>Improved user engagement by 20% with intuitive UI updates.</li>
+			</ul>
+			
+	</div>
+	<div class="experience-section">	
+			<h3>January 2017 – August 2018	Clusterbean Technologies Pvt. Ltd.</h3>
+			<p><strong>Android Application Developer</strong></p>
+			 <p><strong>Locator</strong></p>
+			 <ul class="projects">
+				<li>Designed and architected the app from scratch, including creating class diagrams and proofs of concept (POCs).</li>
+				<li>Developed geo-navigation, location tracking, and smart emergency triggers for police and ambulance assistance. </li>
+				<li>Implemented network communication using Retrofit, Volley, OkHttp, and Socket.IO for efficient data handling and real-time updates.</li>
+			</ul>
+			
+			<p><strong>MediGenie</strong></p>
+			 <ul class="projects">
+				<li>Led the design and architecture of the app, including developing design plans, class diagrams, and proofs of concept (POCs).</li>
+				<li>Implemented functionalities such as doctor consultations, appointment scheduling, medical reports, reminders, ambulance services, and file storage.</li>
+			</ul>
+	</div>
+	
+	
 </section>
 
+<section id="education">
+    <h2>Education</h2>
+    <ul class="education">
+        <li><strong>Master of Computer Application</strong> - Pondicherry Central University, Puducherry (2014-2017) | CGPA: 9.07</li>
+        <li><strong>Bachelor of Computer Application</strong> - Banwarilal Bhalotia College, West Bengal (2011-2014) | Percentile: 69%</li>
+    </ul>
+</section>
+
+<section id="awards">
+    <h2>Awards</h2>
+    <ul class="awards">
+        <li>December 2024 - Extempore Award - Wipro Limited</li>
+        <li>February 2024 - Best Team Award - Sony India Software Center Pvt. Ltd.</li>
+        <li>March 2023 - Maestro-Execution Excellence Award - Wipro Limited</li>
+		<li>January 2023 - Maestro-Execution Excellence Award - Wipro Limited</li>
+		<li>January 2021 - Duct Tape Award - Impelsys</li>
+		<li>June 2020 - Excellence in Compliance Award - Impelsys</li>
+        <!-- Add more awards as needed -->
+    </ul>
+</section>
+
+</div>
+
 <footer>
-    <p>&copy; 2025 Your Name | All rights reserved</p>
+    <p>&copy; 2025 Subrata Bal | All rights reserved</p>
 </footer>
 
 </body>
